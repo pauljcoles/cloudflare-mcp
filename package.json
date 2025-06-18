@@ -1,0 +1,27 @@
+{
+  "name": "cloudflare-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "lucide-react": "^0.517.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "use-mcp": "^0.0.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^6.3.5"
+  }
+}

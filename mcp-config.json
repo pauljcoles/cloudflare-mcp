@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "atlassian": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e", "CONFLUENCE_URL=${CONFLUENCE_URL}",
+        "-e", "CONFLUENCE_USERNAME=${CONFLUENCE_USERNAME}",
+        "-e", "CONFLUENCE_API_TOKEN=${CONFLUENCE_API_TOKEN}",
+        "-e", "JIRA_URL=${JIRA_URL}",
+        "-e", "JIRA_USERNAME=${JIRA_USERNAME}",
+        "-e", "JIRA_API_TOKEN=${JIRA_API_TOKEN}",
+        "ghcr.io/sooperset/mcp-atlassian:latest"
+      ]
+    }
+  }
+}
