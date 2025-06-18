@@ -11,6 +11,7 @@ interface Message {
 }
 
 const MCPAmazonQApp = () => {
+  console.log('MCPAmazonQApp component rendering...');
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);

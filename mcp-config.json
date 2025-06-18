@@ -1,5 +1,9 @@
 {
   "servers": {
+    "amazon-q": {
+      "command": "node",
+      "args": ["amazon-q-mcp-server.js"]
+    },
     "atlassian": {
       "command": "docker",
       "args": [
